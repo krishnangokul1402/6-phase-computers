@@ -1,0 +1,18 @@
+# Python / PyCharm
+__pycache__/
+*.py[cod]
+.idea/
+.venv/
+venv/
+
+# Environment variables and private data
+.env
+.env.*
+.streamlit/secrets.toml
+*.db
+*.db-journal
+data/*.db
+
+# OS
+.DS_Store
+Thumbs.db
